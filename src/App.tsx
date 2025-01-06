@@ -1,7 +1,11 @@
+import Navbar from './scenes/navbar';
+
 function App() {
   return (
-    <div className="app">
-      <h1 className="text-3xl font-bold underline">App</h1>
+    <div className="app bg-gray-20">
+      <h1>
+        <Navbar />
+      </h1>
     </div>
   );
 }
